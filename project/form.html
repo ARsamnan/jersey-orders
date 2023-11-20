@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+   
+
+    <title>Add your details</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"> <img src="img/logo.jpg" width="90px" height="90px" id="logo" alt="logo image"
+                style="margin-left: 10px;"></div>
+        <ul class="menu">
+            <li> <a href="sam.html">Home</a></li>
+            <li> <a href="national.html">National Editions</a></li>
+            <li> <a href="club.html">Club Editions</a></li>
+            <li><a href="retro.html">Retro</a></li>
+            <li><a href="acc.html">Accessories</a></li>
+            <li> <a href="custom.html">Customize Jersey</a></li>
+            <li> <a href="about.html">About Us</a></li>
+            <li> <a href="faq.html" >FAQ's</a></li>
+            <li> <a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+            <li> <a href="loginn.html"><button class="btn-featured">Join Us</button></a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <div class="full-details">
+        <h2>Fill up with your details:</h2>
+        <form id="full" method="post">
+            <label>Full Name: </label>
+            <br>
+            <input type="text" name="fname" id="name" placeholder="Enter your name">
+            <br><br>
+
+            <label> Email: </label>
+            <br>
+            <input type="email" name="email" id="name" placeholder="Enter your valid email">
+            <br><br>
+
+            <label> Address: </label>
+            <br>
+            <input type="text" name="address" id="name" placeholder="Enter your address">
+            <br><br>
+
+            <label> Number: </label>
+            <br>
+            <input type="tel" name="phone" id="name" placeholder="Enter your phone number">
+            <br><br>
+
+            <label>Order Pieces: </label>
+            <br>
+            <input type="number" min="10" max="30" name="pieces" id="name" placeholder="How many do you want to order">
+            <br><br>
+
+            <label>Payment Method </label>
+            <br>
+            <input type="radio" id="bkash" name="method" value="bkash">
+            <label for="bkash">Bkash</label><br>
+            <input type="radio" id="nagad" name="method" value="nagad">
+            <label for="nagad">Nagad</label><br>  
+            <input type="radio" id="cashondelivery" name="method" value="cashondelivery">
+            <label for="cashondelivery">Cash on Delivery</label>
+            <br><br>
+
+            <label>Transaction No: </label>
+            <br>
+            <input type="text" name="tr" id="name" placeholder="Enter the transaction id">
+            <br><br>
+
+            <label>Mockup File: </label> <input type="file" name="mockup" id="png" accept=".png">
+            <br><br>
+            
+
+
+            <input type="button" id="button" onclick="alert('Your order is confirmed')" value="Confirm">
+           
+
+
+            
+
+
+        </form>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <div>
+            <h2>Jersey Stories</h2>
+         
+
+        </div>
+      
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com">
+           
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="https://www.twitter.com/example-company">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/example-company">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="https://www.whatsapp.com/example-company">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </div>
+      </div>
+     
+
+        <div class="footer-column">
+            <h2>Jerseys</h2>
+            <ul>
+              <li><a href="national.html">National Editions</a></li>
+              <li><a href="club.html">Club Editions</a></li>
+              <li><a href="retro.html">Retro Jerseys</a></li>
+              <li><a href="custom.html">Customize Jersey</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2>Services</h2>
+            <ul>
+             
+              <li><a href="acc.html">Accessories</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2>Contact</h2>
+            <ul>
+              <li>Address: 123 Main Street</li>
+              <li>Phone: (123) 456-7890</li>
+              <li>Email: jerseystoriesofficial@gmail.com</li>
+            </ul>
+          </div>
+
+     
+    
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+ 
+  <!-- Installation Code Of Ion Icons -->
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+
+</html>
